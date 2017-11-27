@@ -1,0 +1,3 @@
+[submodule "rootfs/opt/octoprint"]
+	path = rootfs/opt/octoprint
+	url = https://github.com/foosel/OctoPrint.git

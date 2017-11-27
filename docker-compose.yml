@@ -1,0 +1,14 @@
+---
+version: '2'
+
+services:
+  octoprint:
+    container_name: octoprint
+    image: nucleardreamer/octoprint-slic3r-mjpgstreamer
+    network_mode: host
+    privileged: true
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+    ports:
+      - 9999:9999
+      - 5000:5000
